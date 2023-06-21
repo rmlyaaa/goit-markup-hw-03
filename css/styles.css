@@ -68,6 +68,7 @@ img {
 .header-nav {
     align-items: center;
     display: flex;
+    padding: 24px 0
 }
 
 .nav-list {
@@ -75,9 +76,7 @@ img {
     gap: 40px;
 }
 
-.nav-list-item {
-    padding: 24px 0
-}
+.nav-list-item {}
 
 .nav-item-text {
     font-weight: 500;
@@ -364,8 +363,7 @@ footer [class="logo-studio"] {
 }
 
 .services-list-item {
-    width: 360px;
-    flex-basis: calc((100%-48px)/3);
+    width: calc((100%-48px)/3);
 }
 
 .servises-card-text {
