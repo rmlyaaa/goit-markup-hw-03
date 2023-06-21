@@ -74,10 +74,12 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+
 }
 
-.nav-list-item {}
+.nav-list-item {
+    padding: 24px 0;
+}
 
 .nav-item-text {
     font-weight: 500;
@@ -364,7 +366,7 @@ footer [class="logo-studio"] {
 }
 
 .services-list-item {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 .servises-card-text {
