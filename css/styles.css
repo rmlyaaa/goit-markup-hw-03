@@ -8,6 +8,23 @@ body {
     background-color: #fff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
 .link {
     text-decoration: none;
 }
@@ -16,7 +33,16 @@ body {
     list-style: none;
 }
 
+.container {
+    width: 1128px;
+    padding: 0 15px 0;
+    margin: 0 auto;
+}
 
+
+.header {
+    padding: 25px 0 25px;
+}
 
 .web-logo {
     font-family: 'Raleway', sans-serif;
@@ -73,6 +99,9 @@ body {
 
 .welcome-content {
     background-color: #2E2F42;
+    height: 600px;
+    padding: 188px 0 188px;
+    margin-bottom: 120px;
 }
 
 .welcome-title {
@@ -101,7 +130,9 @@ body {
     background: #404BBF;
 }
 
-.benefits {}
+.benefits {
+    margin-bottom: 120px;
+}
 
 .hidden-text {
     margin: -1px;
@@ -121,6 +152,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .benefits-item-text {
@@ -131,7 +163,9 @@ body {
 }
 
 
-.examples {}
+.examples {
+    margin-bottom: 120px;
+}
 
 .examples-title {
     font-weight: 700;
@@ -141,6 +175,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .example-list {}
@@ -150,7 +185,8 @@ body {
 
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0 120px;
 }
 
 .team-title {
@@ -176,6 +212,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin: 32px 0 8px;
 }
 
 .team-item-text {
@@ -190,6 +227,7 @@ body {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 footer [class="logo-studio"] {
@@ -201,6 +239,7 @@ footer [class="logo-studio"] {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    margin-top: 16px;
 }
 
 
